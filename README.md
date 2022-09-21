@@ -6,7 +6,7 @@ This is because LOLCODE doesn't officially support multiplexing, non-blocking so
 Might fork LOLCODE later to unofficially add multiplexing and/or non-blocking socket support,
 so that you can send custom messages to channels.
 
-##To run on Debian based systems
+## To run on Debian based systems
 
 sudo apt update && sudo apt install cmake build-essential -y
 

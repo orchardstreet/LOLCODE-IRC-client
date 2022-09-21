@@ -9,7 +9,7 @@ HAI 1.3
 
   BTW asking user for the hostname
   I HAS A host_name ITZ A YARN
-  VISIBLE "Enter hostname: "!
+  VISIBLE "Enter hostname (preferably a non-round-robin domain name): "!
   GIMMEH host_name
 
   BTW asking user for the port
@@ -49,6 +49,14 @@ HAI 1.3
     BOTH SAEM data AN SMOOSH "PING " nick_name ":3:)" MKAY
     O RLY?
       YA RLY
+        I IZ SOCKS'Z PUT YR client_socket AN YR server AN YR SMOOSH "PONG " nick_name ":3:)" MKAY MKAY
+      MEBEE BOTH SAEM data AN SMOOSH "PING :" nick_name ":3:)" MKAY
+        I IZ SOCKS'Z PUT YR client_socket AN YR server AN YR SMOOSH "PONG :" nick_name ":3:)" MKAY MKAY
+      MEBEE BOTH SAEM data AN SMOOSH "PING " host_name ":3:)" MKAY
+        I IZ SOCKS'Z PUT YR client_socket AN YR server AN YR SMOOSH "PONG " nick_name ":3:)" MKAY MKAY
+      MEBEE BOTH SAEM data AN SMOOSH "PING :" host_name ":3:)" MKAY
+        I IZ SOCKS'Z PUT YR client_socket AN YR server AN YR SMOOSH "PONG " nick_name ":3:)" MKAY MKAY
+      MEBEE BOTH SAEM data AN "PING:3:)"
         I IZ SOCKS'Z PUT YR client_socket AN YR server AN YR SMOOSH "PONG " nick_name ":3:)" MKAY MKAY
       NO WAI
         VISIBLE data

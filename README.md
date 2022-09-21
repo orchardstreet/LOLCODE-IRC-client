@@ -8,7 +8,7 @@ so that you can send custom messages to channels.
 
 ## To run on Debian based systems
 
-sudo apt update && sudo apt install cmake build-essential -y
+sudo apt update && sudo apt install cmake build-essential git -y
 
 git clone --branch future https://github.com/justinmeza/lci
 

@@ -6,6 +6,8 @@ This is because LOLCODE doesn't officially support multiplexing, non-blocking so
 Might fork LOLCODE later to unofficially add multiplexing and/or non-blocking socket support,
 so that you can send custom messages to channels.
 
+This works great with ergochat IRC servers, as it seems they all ping via "PING <nickname>".  As LOLCODE doesn't have string parsing, we have to account for all possible PING messages we could receive.  Some servers may implement a unique PING string that this program doesn't recognize, in which case this program will disconnect and fail.  One could edit the code to match a specific PING string from a specific server though.
+
 ## To run on Debian based systems
 
 sudo apt update && sudo apt install cmake build-essential git -y

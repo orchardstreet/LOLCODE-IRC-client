@@ -1,8 +1,8 @@
 # LOLCODE-IRC-client
 An IRC client written in an obscure programming language called 'LOLCODE'
 
-It only continuously reads and outputs what is sent to it from specified channels.  It doesn't support sending custom messages to channels
-This is because LOLCODE doesn't officially support multiplexing, non-blocking sockets etc
+It only continuously reads and outputs what is sent to it from specified channels.  It doesn't support sending custom messages to channels.
+This is because LOLCODE doesn't officially support multiplexing, non-blocking sockets etc.
 Might fork LOLCODE later to unofficially add multiplexing and/or non-blocking socket support,
 so that you can send custom messages to channels.
 

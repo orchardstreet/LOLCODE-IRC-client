@@ -36,7 +36,7 @@ HAI 1.3
 
   BTW sending required commands to IRC server to connect and join the channels
   I IZ SOCKS'Z PUT YR client_socket AN YR server AN YR SMOOSH "NICK " nick_name ":3:)" MKAY MKAY
-  I IZ SOCKS'Z PUT YR client_socket AN YR server AN YR SMOOSH "USER " nick_name " 0 * ::" nick_name ":3:)" MKAY MKAY
+  I IZ SOCKS'Z PUT YR client_socket AN YR server AN YR SMOOSH "USER ~" nick_name " 0 * ::" nick_name ":3:)" MKAY MKAY
   I IZ SOCKS'Z PUT YR client_socket AN YR server AN YR SMOOSH "JOIN " channels ":3:)" MKAY MKAY
 
   BTW creating output buffer
